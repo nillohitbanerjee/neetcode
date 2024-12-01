@@ -41,8 +41,7 @@ public class ThreeSum {
                 }
             }
         }
-        List<List<Integer>> list =new ArrayList<>(); //Creation of ArrayList
-        list.addAll(output);
-        return list;
+        //Creation of ArrayList
+        return new ArrayList<>(output);
     }
 }
